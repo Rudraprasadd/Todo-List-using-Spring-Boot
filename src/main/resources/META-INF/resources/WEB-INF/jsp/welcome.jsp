@@ -3,9 +3,8 @@
     <title>Welcome Page</title>
 </head>
 <body>
-    This is Welcome JSP Page ${name}!
-
-    your name=${name}
-    your pass =${password}
+    <div>This is Welcome JSP Page ${name}!</div>
+    <div>your name ${name}</div>
+    <div><a href="List-todos">Mannage</a>Your Todos</div>
 </body>
 </html>
