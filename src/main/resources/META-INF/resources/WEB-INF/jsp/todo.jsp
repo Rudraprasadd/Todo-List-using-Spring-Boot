@@ -8,7 +8,10 @@
 <body>
     <div class="container">
         <h1>Enter Todo Details</h1>
-        <a href="add-todo" class="btn btn-success">Add Todo</a>
+        <form method="post">
+            Description: <input type="text" name="description" required="required"/>
+            <input type="submit" class="btn btn-success">
+        </form>
     </div>
    
 
